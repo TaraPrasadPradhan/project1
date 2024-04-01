@@ -1,0 +1,32 @@
+/* Table container */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Table header styles */
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Highlighting rows */
+  .high-score {
+    background-color: #c7ecc7; /* Light green */
+  }
+  
+  .low-score {
+    background-color: #f4cccc; /* Light red */
+  }
+  
